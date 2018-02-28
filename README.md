@@ -2,8 +2,8 @@ Use decorators to manage dependency injection in you TS and JS projects
 
 ## Installation 
 ```sh
-npm install react-typescript-injectable --save
-yarn add react-typescript-injectable
+npm install simple-dependency-injector --save
+yarn add simple-dependency-injector
 ```
 **this module need experimentalDecorators enabled**
 
