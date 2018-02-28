@@ -1,7 +1,7 @@
 {
   "name": "simple-dependency-injector",
-  "version": "0.1.9",
-  "description": "define a class as injectable and inject it into other classes using decorators",
+  "version": "0.1.10",
+  "description": "Define a class as injectable and inject it into other classes using decorators",
   "main": "dist/commonjs/DependencyInjector.js",
   "module": "dist/es6/DependencyInjector.es6.js",
   "types": "dist/DependencyInjector.d.ts",
