@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "es6",
+      "declaration": true,
+      "declarationDir": "../dist",
+      "outDir": "../dist/es6",
+      "strict": true
+    },
+    "files": [
+      "../lib/DependencyInjector.ts"
+    ]
+}
+

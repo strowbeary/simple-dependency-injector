@@ -1,0 +1,18 @@
+{
+  "name": "simple-dependency-injector",
+  "version": "0.1.7",
+  "description": "define a class as injectable and inject it into other classes using decorators",
+  "main": "dist/commonjs/DependencyInjector.js",
+  "module": "dist/es6/DependencyInjector.es6.js",
+  "types" : "dist/DependencyInjector.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig/tsconfig.es6.json; tsc -p tsconfig/tsconfig.commonjs.json",
+    "prepublish": "npm run build",
+    "test": ""
+  },
+  "author": "StrowBeary<remicaillot5@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
