@@ -10,8 +10,10 @@ export function Inject(providers: any[]) {
     return (constructor: any) => {
         const providersInstances: any = [];
         for (const provider of providers) {
-            if (injectables.get(provider.name) === void 0 && registredInjectables.includes(provider.name)) {
-                injectables.set(provider.name, new provider());
+            if (registredInjectables.includes(provider.name)) {
+                if (injectables.get(provider.name) === void 0 ) {
+                    injectables.set(provider.name, new provider());
+                }
                 providersInstances.push(injectables.get(provider.name));
             } else {
                 throw Error(
